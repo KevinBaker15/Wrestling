@@ -9,16 +9,18 @@ header{
 }
 
 section{
+    display: flex;
     text-align:left;
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 35vh;
     flex-direction: column;
 }
 
 ul{
     list-style-type: none;
+    height: auto;
+    width: auto;
 }
 
 footer{
