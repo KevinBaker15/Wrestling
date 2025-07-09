@@ -1,0 +1,9 @@
+stack:
+    docker
+        -database
+    css
+    javascript  
+        -maybe for dynamic rankings
+
+keep the pages
+    -store each week rankings
