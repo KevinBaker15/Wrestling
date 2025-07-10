@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres
+    container_name: wrestling-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: wrestling_user
+      POSTGRES_PASSWORD: securepassword
+      POSTGRES_DB: wrestling_rankings
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@wrestling.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
