@@ -9,7 +9,7 @@ header{
 }
 
 section{
-    display: flex;
+    /* display: flex; */
     text-align:left;
     display:flex;
     justify-content: center;
@@ -17,22 +17,42 @@ section{
     flex-direction: column;
 }
 
+main {
+    display: flex;
+}    
+
+.rankingContainer {
+  display: flex;
+  flex-direction: row;
+}  
+
+aside {
+    background-color: yellow;
+    width: 20rem;
+}    
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 4
+}  
+
 ul{
-    list-style-type: none;
-    height: auto;
-    width: auto;
-}
+  list-style-type: none;
+  height: auto;
+  width: auto;
+}  
 
 footer{
     text-align: center;
     margin-top: 100px;
-}
+}    
 
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
   overflow: hidden;
-}
+}  
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -42,13 +62,13 @@ footer{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-} 
+}   
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: black;
   color: white;
-} 
+}   
 
 p {
     text-align: center;
