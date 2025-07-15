@@ -1,962 +1,182 @@
-[
-  {
-    "weight_class": 125,
-    "rank": 1,
-    "name": "Luke Lilledahl",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 125,
-    "rank": 2,
-    "name": "Vincent Robinson",
-    "school": "NC State"
-  },
-  {
-    "weight_class": 125,
-    "rank": 3,
-    "name": "Troy Spratley",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 125,
-    "rank": 4,
-    "name": "Eddie Ventresca",
-    "school": "Virginia Tech"
-  },
-  {
-    "weight_class": 125,
-    "rank": 5,
-    "name": "Dean Peterson",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 125,
-    "rank": 6,
-    "name": "Nicolar Rivera",
-    "school": "Wisconsin"
-  },
-  {
-    "weight_class": 125,
-    "rank": 7,
-    "name": "Stevo Poulin",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 125,
-    "rank": 8,
-    "name": "Sheldon Seymour",
-    "school": "Lehigh"
-  },
-  {
-    "weight_class": 125,
-    "rank": 9,
-    "name": "Trever Anderson",
-    "school": "Northern Iowa"
-  },
-  {
-    "weight_class": 125,
-    "rank": 10,
-    "name": "Nico Provo",
-    "school": "Stanford"
-  },
-  {
-    "weight_class": 125,
-    "rank": 11,
-    "name": "Jore Volk",
-    "school": "Minnesota"
-  },
-  {
-    "weight_class": 125,
-    "rank": 12,
-    "name": "Brendan McCrone",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 125,
-    "rank": "HM",
-    "name": "Greg Diakomihalis",
-    "school": "Cornell"
-  },
-  {
-    "weight_class": 125,
-    "rank": "HM",
-    "name": "Jacob Moran",
-    "school": "Indiana"
-  },
-  {
-    "weight_class": 125,
-    "rank": "HM",
-    "name": "Marc-Anthony McGowan",
-    "school": "Princeton"
-  },
-  {
-    "weight_class": 125,
-    "rank": "HM",
-    "name": "Blake West",
-    "school": "Northern Illinois"
-  },
-  {
-    "weight_class": 133,
-    "rank": 1,
-    "name": "Ryan Crookham",
-    "school": "Lehigh"
-  },
-  {
-    "weight_class": 133,
-    "rank": 2,
-    "name": "Lucas Byrd",
-    "school": "Illinois"
-  },
-  {
-    "weight_class": 133,
-    "rank": 3,
-    "name": "Drake Ayala",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 133,
-    "rank": 4,
-    "name": "Zeth Romney",
-    "school": "Cal Poly"
-  },
-  {
-    "weight_class": 133,
-    "rank": 5,
-    "name": "Marcus Blaze",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 133,
-    "rank": 6,
-    "name": "Zan Fuggit",
-    "school": "Wisconsin"
-  },
-  {
-    "weight_class": 133,
-    "rank": 7,
-    "name": "Richard Figueroa",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 133,
-    "rank": 8,
-    "name": "Ben Davino/Nic Bouzakis",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 133,
-    "rank": 9,
-    "name": "Jacob Van Dee",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 133,
-    "rank": 10,
-    "name": "Evan Frost",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 133,
-    "rank": 11,
-    "name": "Tyler Knox",
-    "school": "Stanford"
-  },
-  {
-    "weight_class": 133,
-    "rank": 12,
-    "name": "Jett Strickenberger",
-    "school": "West Virginia"
-  },
-  {
-    "weight_class": 133,
-    "rank": "HM",
-    "name": "Dylan Ragusin",
-    "school": "Michigan"
-  },
-  {
-    "weight_class": 133,
-    "rank": "HM",
-    "name": "Dylan Shawver",
-    "school": "Rutgers"
-  },
-  {
-    "weight_class": 133,
-    "rank": "HM",
-    "name": "Braxton Brown",
-    "school": "Maryland"
-  },
-  {
-    "weight_class": 133,
-    "rank": "HM",
-    "name": "Dominick Serrano",
-    "school": "Northern Colorado"
-  },
-  {
-    "weight_class": 141,
-    "rank": 1,
-    "name": "Jesse Mendez",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 141,
-    "rank": 2,
-    "name": "Luke Stanich",
-    "school": "Lehigh"
-  },
-  {
-    "weight_class": 141,
-    "rank": 3,
-    "name": "Brock Hardy",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 141,
-    "rank": 4,
-    "name": "CJ Composto",
-    "school": "Penn"
-  },
-  {
-    "weight_class": 141,
-    "rank": 5,
-    "name": "Vance Vombaur",
-    "school": "Minnesota"
-  },
-  {
-    "weight_class": 141,
-    "rank": 6,
-    "name": "Anthony Echemendia",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 141,
-    "rank": 7,
-    "name": "Masanosuke Ono",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 141,
-    "rank": 8,
-    "name": "Nasir Bailey",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 141,
-    "rank": 9,
-    "name": "Sergio Lemley",
-    "school": "Michigan"
-  },
-  {
-    "weight_class": 141,
-    "rank": 10,
-    "name": "Julian Tagg",
-    "school": "South Dakota State"
-  },
-  {
-    "weight_class": 141,
-    "rank": 11,
-    "name": "Danny Pucino",
-    "school": "Illinois"
-  },
-  {
-    "weight_class": 141,
-    "rank": 12,
-    "name": "Wyatt Henson",
-    "school": "Lock Haven"
-  },
-  {
-    "weight_class": 141,
-    "rank": "HM",
-    "name": "Ryan Jack",
-    "school": "NC State"
-  },
-  {
-    "weight_class": 141,
-    "rank": "HM",
-    "name": "Cael Hughes",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 141,
-    "rank": "HM",
-    "name": "Vince Cornella",
-    "school": "Cornell"
-  },
-  {
-    "weight_class": 141,
-    "rank": "HM",
-    "name": "Dylan Chappel",
-    "school": "Bucknell"
-  },
-  {
-    "weight_class": 149,
-    "rank": 1,
-    "name": "Caleb Henson",
-    "school": "Virginia Tech"
-  },
-  {
-    "weight_class": 149,
-    "rank": 2,
-    "name": "Shayne Van Ness",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 149,
-    "rank": 3,
-    "name": "Tagen Jamison",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 149,
-    "rank": 4,
-    "name": "Jacob Frost",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 149,
-    "rank": 5,
-    "name": "Lachlan Mcneil",
-    "school": "Michigan"
-  },
-  {
-    "weight_class": 149,
-    "rank": 6,
-    "name": "Ethan Stiles",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 149,
-    "rank": 7,
-    "name": "Jordan Williams",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 149,
-    "rank": 8,
-    "name": "Gavin Drexler",
-    "school": "North Dakota State"
-  },
-  {
-    "weight_class": 149,
-    "rank": 9,
-    "name": "Cross Wasilewski",
-    "school": "Penn"
-  },
-  {
-    "weight_class": 149,
-    "rank": 10,
-    "name": "Chance Lamer",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 149,
-    "rank": 11,
-    "name": "Jack Gioffre",
-    "school": "Oklahoma"
-  },
-  {
-    "weight_class": 149,
-    "rank": 12,
-    "name": "Ty Whalen",
-    "school": "Princeton"
-  },
-  {
-    "weight_class": 149,
-    "rank": "HM",
-    "name": "EJ Parco",
-    "school": "Stanford"
-  },
-  {
-    "weight_class": 149,
-    "rank": "HM",
-    "name": "Josh Edmond",
-    "school": "Missouri"
-  },
-  {
-    "weight_class": 149,
-    "rank": "HM",
-    "name": "Andrew Clark",
-    "school": "Rutgers"
-  },
-  {
-    "weight_class": 149,
-    "rank": "HM",
-    "name": "Joseph Zargo",
-    "school": "Wisconsin"
-  },
-  {
-    "weight_class": 157,
-    "rank": 1,
-    "name": "Antrell Taylor",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 157,
-    "rank": 2,
-    "name": "Tyler Kasak",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 157,
-    "rank": 3,
-    "name": "Meyer Shapiro",
-    "school": "Cornell"
-  },
-  {
-    "weight_class": 157,
-    "rank": 4,
-    "name": "Joey Blaze",
-    "school": "Purdue"
-  },
-  {
-    "weight_class": 157,
-    "rank": 5,
-    "name": "Jackson Arrington",
-    "school": "NC State"
-  },
-  {
-    "weight_class": 157,
-    "rank": 6,
-    "name": "Daniel Cardenas",
-    "school": "Stanford"
-  },
-  {
-    "weight_class": 157,
-    "rank": 7,
-    "name": "Ty Watters",
-    "school": "West Virginia"
-  },
-  {
-    "weight_class": 157,
-    "rank": 8,
-    "name": "Matty Bianchi",
-    "school": "Little Rock"
-  },
-  {
-    "weight_class": 157,
-    "rank": 9,
-    "name": "Peyten Kellar",
-    "school": "Oklahoma"
-  },
-  {
-    "weight_class": 157,
-    "rank": 10,
-    "name": "Brandon Cannon",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 157,
-    "rank": 11,
-    "name": "Kannon Webster",
-    "school": "Illinois"
-  },
-  {
-    "weight_class": 157,
-    "rank": 12,
-    "name": "Vince Zerban",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 157,
-    "rank": "HM",
-    "name": "Charlie Millard",
-    "school": "Minnesota"
-  },
-  {
-    "weight_class": 157,
-    "rank": "HM",
-    "name": "Jude Swisher",
-    "school": "Penn"
-  },
-  {
-    "weight_class": 157,
-    "rank": "HM",
-    "name": "Cael Swensen",
-    "school": "South Dakota State"
-  },
-  {
-    "weight_class": 157,
-    "rank": "HM",
-    "name": "Cody Chittum",
-    "school": "Chattanooga"
-  },
-  {
-    "weight_class": 165,
-    "rank": 1,
-    "name": "Mitchell Mesenbrink",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 165,
-    "rank": 2,
-    "name": "Michael Caliendo",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 165,
-    "rank": 3,
-    "name": "Christopher Minto",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 165,
-    "rank": 4,
-    "name": "Hunter Garvin",
-    "school": "Stanford"
-  },
-  {
-    "weight_class": 165,
-    "rank": 5,
-    "name": "Ryder Downey",
-    "school": "Northern Iowa"
-  },
-  {
-    "weight_class": 165,
-    "rank": 6,
-    "name": "Max Brignola",
-    "school": "Lehigh"
-  },
-  {
-    "weight_class": 165,
-    "rank": 7,
-    "name": "Beau Mantanona",
-    "school": "Michigan"
-  },
-  {
-    "weight_class": 165,
-    "rank": 8,
-    "name": "Rafael Hipolito",
-    "school": "Oklahoma"
-  },
-  {
-    "weight_class": 165,
-    "rank": 9,
-    "name": "Braeden Scoles",
-    "school": "Illinois"
-  },
-  {
-    "weight_class": 165,
-    "rank": 10,
-    "name": "Nicco Ruiz",
-    "school": "Arizona State"
-  },
-  {
-    "weight_class": 165,
-    "rank": 11,
-    "name": "Andrew Sparks",
-    "school": "Minnesota"
-  },
-  {
-    "weight_class": 165,
-    "rank": 12,
-    "name": "Paddy Galagher",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 165,
-    "rank": "HM",
-    "name": "Nick Hamilton",
-    "school": "Virginia"
-  },
-  {
-    "weight_class": 165,
-    "rank": "HM",
-    "name": "Will Miller",
-    "school": "App State"
-  },
-  {
-    "weight_class": 165,
-    "rank": "HM",
-    "name": "Maxx Mayfield",
-    "school": "Missouri"
-  },
-  {
-    "weight_class": 165,
-    "rank": "HM",
-    "name": "Tyler Lillard",
-    "school": "Indiana"
-  },
-  {
-    "weight_class": 174,
-    "rank": 1,
-    "name": "Levi Haines",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 174,
-    "rank": 2,
-    "name": "Patrick Kennedy",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 174,
-    "rank": 3,
-    "name": "Lenny Pinto",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 174,
-    "rank": 4,
-    "name": "Cam Steed",
-    "school": "Missouri"
-  },
-  {
-    "weight_class": 174,
-    "rank": 5,
-    "name": "Simon Ruiz",
-    "school": "Cornell"
-  },
-  {
-    "weight_class": 174,
-    "rank": 6,
-    "name": "Danny Wask",
-    "school": "Navy"
-  },
-  {
-    "weight_class": 174,
-    "rank": 7,
-    "name": "Garrett Thompson",
-    "school": "Ohio"
-  },
-  {
-    "weight_class": 174,
-    "rank": 8,
-    "name": "Carson Kharchla",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 174,
-    "rank": 9,
-    "name": "Matthew Singleton",
-    "school": "NC State"
-  },
-  {
-    "weight_class": 174,
-    "rank": 10,
-    "name": "Brock Mantanona",
-    "school": "Michigan"
-  },
-  {
-    "weight_class": 174,
-    "rank": 11,
-    "name": "MJ Gaitan",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 174,
-    "rank": 12,
-    "name": "Jared Simma",
-    "school": "Northern Iowa"
-  },
-  {
-    "weight_class": 174,
-    "rank": "HM",
-    "name": "Alex Facundo",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 174,
-    "rank": "HM",
-    "name": "Luca Augustine",
-    "school": "Pittsburgh"
-  },
-  {
-    "weight_class": 174,
-    "rank": "HM",
-    "name": "Lorenzo Norman",
-    "school": "Stanford"
-  },
-  {
-    "weight_class": 174,
-    "rank": "HM",
-    "name": "Brody Conley",
-    "school": "West Virginia"
-  },
-  {
-    "weight_class": 184,
-    "rank": 1,
-    "name": "Max McEnelly",
-    "school": "Minnesota"
-  },
-  {
-    "weight_class": 184,
-    "rank": 2,
-    "name": "Angelo Ferrari",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 184,
-    "rank": 3,
-    "name": "Rocco Welsh",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 184,
-    "rank": 4,
-    "name": "Silas Allred",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 184,
-    "rank": 5,
-    "name": "Jaxon Smith",
-    "school": "Maryland"
-  },
-  {
-    "weight_class": 184,
-    "rank": 6,
-    "name": "Bennett Berge",
-    "school": "South Dakota State"
-  },
-  {
-    "weight_class": 184,
-    "rank": 7,
-    "name": "Edmond Ruth",
-    "school": "Illinois"
-  },
-  {
-    "weight_class": 184,
-    "rank": 8,
-    "name": "Aeoden Sinclair",
-    "school": "Missouri"
-  },
-  {
-    "weight_class": 184,
-    "rank": 9,
-    "name": "Dylan Fishback",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 184,
-    "rank": 10,
-    "name": "Zack Ryder",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 184,
-    "rank": 11,
-    "name": "Aidan Brenot",
-    "school": "North Dakota State"
-  },
-  {
-    "weight_class": 184,
-    "rank": 12,
-    "name": "Brian Soldano",
-    "school": "Oklahoma"
-  },
-  {
-    "weight_class": 184,
-    "rank": "HM",
-    "name": "Nick Fine",
-    "school": "Columbia"
-  },
-  {
-    "weight_class": 184,
-    "rank": "HM",
-    "name": "Eddie Neitenbach",
-    "school": "Wyoming"
-  },
-  {
-    "weight_class": 184,
-    "rank": "HM",
-    "name": "Isaac Dean",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 184,
-    "rank": "HM",
-    "name": "Malachi Duvall",
-    "school": "George Mason"
-  },
-  {
-    "weight_class": 197,
-    "rank": 1,
-    "name": "Josh Barr",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 197,
-    "rank": 2,
-    "name": "Joey Novak",
-    "school": "Wyoming"
-  },
-  {
-    "weight_class": 197,
-    "rank": 3,
-    "name": "Mac Stout",
-    "school": "Pittsburgh"
-  },
-  {
-    "weight_class": 197,
-    "rank": 4,
-    "name": "Stephen Little",
-    "school": "Little Rock"
-  },
-  {
-    "weight_class": 197,
-    "rank": 5,
-    "name": "Rocky Elam",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 197,
-    "rank": 6,
-    "name": "Seth SHumate",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 197,
-    "rank": 7,
-    "name": "Cody Merrill",
-    "school": "Oklahoma State"
-  },
-  {
-    "weight_class": 197,
-    "rank": 8,
-    "name": "Camden McDanel",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 197,
-    "rank": 9,
-    "name": "Deanthony Parker",
-    "school": "Oklahoma"
-  },
-  {
-    "weight_class": 197,
-    "rank": 10,
-    "name": "Gabe Sollars",
-    "school": "Indiana"
-  },
-  {
-    "weight_class": 197,
-    "rank": 11,
-    "name": "Sonny Sasso",
-    "school": "Virginia Tech"
-  },
-  {
-    "weight_class": 197,
-    "rank": 12,
-    "name": "Dillon Bechtold",
-    "school": "Bucknell"
-  },
-  {
-    "weight_class": 197,
-    "rank": "HM",
-    "name": "Evan Bates",
-    "school": "Missouri"
-  },
-  {
-    "weight_class": 197,
-    "rank": "HM",
-    "name": "Ian Bush",
-    "school": "West Virginia"
-  },
-  {
-    "weight_class": 197,
-    "rank": "HM",
-    "name": "JT Davis",
-    "school": "Lehigh"
-  },
-  {
-    "weight_class": 197,
-    "rank": "HM",
-    "name": "Justin Rademacher",
-    "school": "Oregon State"
-  },
-  {
-    "weight_class": 285,
-    "rank": 1,
-    "name": "AJ Ferrari",
-    "school": "Nebraska"
-  },
-  {
-    "weight_class": 285,
-    "rank": 2,
-    "name": "Isaac Trumble",
-    "school": "NC State"
-  },
-  {
-    "weight_class": 285,
-    "rank": 3,
-    "name": "Yonger Bastida",
-    "school": "Iowa State"
-  },
-  {
-    "weight_class": 285,
-    "rank": 4,
-    "name": "Ben Kueter",
-    "school": "Iowa"
-  },
-  {
-    "weight_class": 285,
-    "rank": 5,
-    "name": "Nick Feldman",
-    "school": "Ohio State"
-  },
-  {
-    "weight_class": 285,
-    "rank": 6,
-    "name": "Dayton Pitzer",
-    "school": "Pittsburgh"
-  },
-  {
-    "weight_class": 285,
-    "rank": 7,
-    "name": "Wyatt Voelker",
-    "school": "Northern Iowa"
-  },
-  {
-    "weight_class": 285,
-    "rank": 8,
-    "name": "Nathan Taylor",
-    "school": "Lehigh"
-  },
-  {
-    "weight_class": 285,
-    "rank": 9,
-    "name": "Taye Ghadiali",
-    "school": "Michigan"
-  },
-  {
-    "weight_class": 285,
-    "rank": 10,
-    "name": "Luke Luffman",
-    "school": "Illinois"
-  },
-  {
-    "weight_class": 285,
-    "rank": 11,
-    "name": "Jim Mullen",
-    "school": "Virginia Tech"
-  },
-  {
-    "weight_class": 285,
-    "rank": 12,
-    "name": "Cole Mirasola",
-    "school": "Penn State"
-  },
-  {
-    "weight_class": 285,
-    "rank": "HM",
-    "name": "Braxton Amos",
-    "school": "Wisconsin"
-  },
-  {
-    "weight_class": 285,
-    "rank": "HM",
-    "name": "Hunter Catka",
-    "school": "Rutgers"
-  },
-  {
-    "weight_class": 285,
-    "rank": "HM",
-    "name": "David Szuba",
-    "school": "Arizona State"
-  },
-  {
-    "weight_class": 285,
-    "rank": "HM",
-    "name": "Nolan Neves",
-    "school": "North Carolina"
-  }
-]
+{
+  "125": [
+    { "rank": 1, "name": "Luke Lilledahl", "school": "Penn State" },
+    { "rank": 2, "name": "Vincent Robinson", "school": "NC State" },
+    { "rank": 3, "name": "Troy Spratley", "school": "Oklahoma State" },
+    { "rank": 4, "name": "Eddie Ventresca", "school": "Virginia Tech" },
+    { "rank": 5, "name": "Dean Peterson", "school": "Iowa" },
+    { "rank": 6, "name": "Nicolar Rivera", "school": "Wisconsin" },
+    { "rank": 7, "name": "Stevo Poulin", "school": "Iowa State" },
+    { "rank": 8, "name": "Sheldon Seymour", "school": "Lehigh" },
+    { "rank": 9, "name": "Trever Anderson", "school": "Northern Iowa" },
+    { "rank": 10, "name": "Nico Provo", "school": "Stanford" },
+    { "rank": 11, "name": "Jore Volk", "school": "Minnesota" },
+    { "rank": 12, "name": "Brendan McCrone", "school": "Ohio State" },
+    { "rank": "HM", "name": "Greg Diakomihalis", "school": "Cornell" },
+    { "rank": "HM", "name": "Jacob Moran", "school": "Indiana" },
+    { "rank": "HM", "name": "Marc-Anthony McGowan", "school": "Princeton" },
+    { "rank": "HM", "name": "Blake West", "school": "Northern Illinois" }
+  ],
+  "133": [
+    { "rank": 1, "name": "Ryan Crookham", "school": "Lehigh" },
+    { "rank": 2, "name": "Lucas Byrd", "school": "Illinois" },
+    { "rank": 3, "name": "Drake Ayala", "school": "Iowa" },
+    { "rank": 4, "name": "Zeth Romney", "school": "Cal Poly" },
+    { "rank": 5, "name": "Marcus Blaze", "school": "Penn State" },
+    { "rank": 6, "name": "Zan Fuggit", "school": "Wisconsin" },
+    { "rank": 7, "name": "Richard Figueroa", "school": "Oklahoma State" },
+    { "rank": 8, "name": "Ben Davino/Nic Bouzakis", "school": "Ohio State" },
+    { "rank": 9, "name": "Jacob Van Dee", "school": "Nebraska" },
+    { "rank": 10, "name": "Evan Frost", "school": "Iowa State" },
+    { "rank": 11, "name": "Tyler Knox", "school": "Stanford" },
+    { "rank": 12, "name": "Jett Strickenberger", "school": "West Virginia" },
+    { "rank": "HM", "name": "Dylan Ragusin", "school": "Michigan" },
+    { "rank": "HM", "name": "Dylan Shawver", "school": "Rutgers" },
+    { "rank": "HM", "name": "Braxton Brown", "school": "Maryland" },
+    { "rank": "HM", "name": "Dominick Serrano", "school": "Northern Colorado" }
+  ],
+  "141": [
+    { "rank": 1, "name": "Jesse Mendez", "school": "Ohio State" },
+    { "rank": 2, "name": "Luke Stanich", "school": "Lehigh" },
+    { "rank": 3, "name": "Brock Hardy", "school": "Nebraska" },
+    { "rank": 4, "name": "CJ Composto", "school": "Penn" },
+    { "rank": 5, "name": "Vance Vombaur", "school": "Minnesota" },
+    { "rank": 6, "name": "Anthony Echemendia", "school": "Iowa State" },
+    { "rank": 7, "name": "Masanosuke Ono", "school": "Penn State" },
+    { "rank": 8, "name": "Nasir Bailey", "school": "Iowa" },
+    { "rank": 9, "name": "Sergio Lemley", "school": "Michigan" },
+    { "rank": 10, "name": "Julian Tagg", "school": "South Dakota State" },
+    { "rank": 11, "name": "Danny Pucino", "school": "Illinois" },
+    { "rank": 12, "name": "Wyatt Henson", "school": "Lock Haven" },
+    { "rank": "HM", "name": "Ryan Jack", "school": "NC State" },
+    { "rank": "HM", "name": "Cael Hughes", "school": "Oklahoma State" },
+    { "rank": "HM", "name": "Vince Cornella", "school": "Cornell" },
+    { "rank": "HM", "name": "Dylan Chappel", "school": "Bucknell" }
+  ],
+  "149": [
+    { "rank": 1, "name": "Caleb Henson", "school": "Virginia Tech" },
+    { "rank": 2, "name": "Shayne Van Ness", "school": "Penn State" },
+    { "rank": 3, "name": "Tagen Jamison", "school": "Oklahoma State" },
+    { "rank": 4, "name": "Jacob Frost", "school": "Iowa State" },
+    { "rank": 5, "name": "Lachlan Mcneil", "school": "Michigan" },
+    { "rank": 6, "name": "Ethan Stiles", "school": "Ohio State" },
+    { "rank": 7, "name": "Jordan Williams", "school": "Iowa" },
+    { "rank": 8, "name": "Gavin Drexler", "school": "North Dakota State" },
+    { "rank": 9, "name": "Cross Wasilewski", "school": "Penn" },
+    { "rank": 10, "name": "Chance Lamer", "school": "Nebraska" },
+    { "rank": 11, "name": "Jack Gioffre", "school": "Oklahoma" },
+    { "rank": 12, "name": "Ty Whalen", "school": "Princeton" },
+    { "rank": "HM", "name": "EJ Parco", "school": "Stanford" },
+    { "rank": "HM", "name": "Josh Edmond", "school": "Missouri" },
+    { "rank": "HM", "name": "Andrew Clark", "school": "Rutgers" },
+    { "rank": "HM", "name": "Joseph Zargo", "school": "Wisconsin" }
+  ],
+  "157": [
+    { "rank": 1, "name": "Antrell Taylor", "school": "Nebraska" },
+    { "rank": 2, "name": "Tyler Kasak", "school": "Penn State" },
+    { "rank": 3, "name": "Meyer Shapiro", "school": "Cornell" },
+    { "rank": 4, "name": "Joey Blaze", "school": "Purdue" },
+    { "rank": 5, "name": "Jackson Arrington", "school": "NC State" },
+    { "rank": 6, "name": "Daniel Cardenas", "school": "Stanford" },
+    { "rank": 7, "name": "Ty Watters", "school": "West Virginia" },
+    { "rank": 8, "name": "Matty Bianchi", "school": "Little Rock" },
+    { "rank": 9, "name": "Peyten Kellar", "school": "Oklahoma" },
+    { "rank": 10, "name": "Brandon Cannon", "school": "Ohio State" },
+    { "rank": 11, "name": "Kannon Webster", "school": "Illinois" },
+    { "rank": 12, "name": "Vince Zerban", "school": "Iowa State" },
+    { "rank": "HM", "name": "Charlie Millard", "school": "Minnesota" },
+    { "rank": "HM", "name": "Jude Swisher", "school": "Penn" },
+    { "rank": "HM", "name": "Cael Swensen", "school": "South Dakota State" },
+    { "rank": "HM", "name": "Cody Chittum", "school": "Chattanooga" }
+  ],
+  "165": [
+    { "rank": 1, "name": "Mitchell Mesenbrink", "school": "Penn State" },
+    { "rank": 2, "name": "Michael Caliendo", "school": "Iowa" },
+    { "rank": 3, "name": "Christopher Minto", "school": "Nebraska" },
+    { "rank": 4, "name": "Hunter Garvin", "school": "Stanford" },
+    { "rank": 5, "name": "Ryder Downey", "school": "Northern Iowa" },
+    { "rank": 6, "name": "Max Brignola", "school": "Lehigh" },
+    { "rank": 7, "name": "Beau Mantanona", "school": "Michigan" },
+    { "rank": 8, "name": "Rafael Hipolito", "school": "Oklahoma" },
+    { "rank": 9, "name": "Braeden Scoles", "school": "Illinois" },
+    { "rank": 10, "name": "Nicco Ruiz", "school": "Arizona State" },
+    { "rank": 11, "name": "Andrew Sparks", "school": "Minnesota" },
+    { "rank": 12, "name": "Paddy Galagher", "school": "Ohio State" },
+    { "rank": "HM", "name": "Nick Hamilton", "school": "Virginia" },
+    { "rank": "HM", "name": "Will Miller", "school": "App State" },
+    { "rank": "HM", "name": "Maxx Mayfield", "school": "Missouri" },
+    { "rank": "HM", "name": "Tyler Lillard", "school": "Indiana" }
+  ],
+  "174": [
+    { "rank": 1, "name": "Levi Haines", "school": "Penn State" },
+    { "rank": 2, "name": "Patrick Kennedy", "school": "Iowa" },
+    { "rank": 3, "name": "Lenny Pinto", "school": "Nebraska" },
+    { "rank": 4, "name": "Cam Steed", "school": "Missouri" },
+    { "rank": 5, "name": "Simon Ruiz", "school": "Cornell" },
+    { "rank": 6, "name": "Danny Wask", "school": "Navy" },
+    { "rank": 7, "name": "Garrett Thompson", "school": "Ohio" },
+    { "rank": 8, "name": "Carson Kharchla", "school": "Ohio State" },
+    { "rank": 9, "name": "Matthew Singleton", "school": "NC State" },
+    { "rank": 10, "name": "Brock Mantanona", "school": "Michigan" },
+    { "rank": 11, "name": "MJ Gaitan", "school": "Iowa State" },
+    { "rank": 12, "name": "Jared Simma", "school": "Northern Iowa" },
+    { "rank": "HM", "name": "Alex Facundo", "school": "Oklahoma State" },
+    { "rank": "HM", "name": "Luca Augustine", "school": "Pittsburgh" },
+    { "rank": "HM", "name": "Lorenzo Norman", "school": "Stanford" },
+    { "rank": "HM", "name": "Brody Conley", "school": "West Virginia" }
+  ],
+  "184": [
+    { "rank": 1, "name": "Max McEnelly", "school": "Minnesota" },
+    { "rank": 2, "name": "Angelo Ferrari", "school": "Iowa" },
+    { "rank": 3, "name": "Rocco Welsh", "school": "Penn State" },
+    { "rank": 4, "name": "Silas Allred", "school": "Nebraska" },
+    { "rank": 5, "name": "Jaxon Smith", "school": "Maryland" },
+    { "rank": 6, "name": "Bennett Berge", "school": "South Dakota State" },
+    { "rank": 7, "name": "Edmond Ruth", "school": "Illinois" },
+    { "rank": 8, "name": "Aeoden Sinclair", "school": "Missouri" },
+    { "rank": 9, "name": "Dylan Fishback", "school": "Ohio State" },
+    { "rank": 10, "name": "Zack Ryder", "school": "Oklahoma State" },
+    { "rank": 11, "name": "Aidan Brenot", "school": "North Dakota State" },
+    { "rank": 12, "name": "Brian Soldano", "school": "Oklahoma" },
+    { "rank": "HM", "name": "Nick Fine", "school": "Columbia" },
+    { "rank": "HM", "name": "Eddie Neitenbach", "school": "Wyoming" },
+    { "rank": "HM", "name": "Isaac Dean", "school": "Iowa State" },
+    { "rank": "HM", "name": "Malachi Duvall", "school": "George Mason" }
+  ],
+  "197": [
+    { "rank": 1, "name": "Josh Barr", "school": "Penn State" },
+    { "rank": 2, "name": "Joey Novak", "school": "Wyoming" },
+    { "rank": 3, "name": "Mac Stout", "school": "Pittsburgh" },
+    { "rank": 4, "name": "Stephen Little", "school": "Little Rock" },
+    { "rank": 5, "name": "Rocky Elam", "school": "Iowa State" },
+    { "rank": 6, "name": "Seth SHumate", "school": "Ohio State" },
+    { "rank": 7, "name": "Cody Merrill", "school": "Oklahoma State" },
+    { "rank": 8, "name": "Camden McDanel", "school": "Nebraska" },
+    { "rank": 9, "name": "Deanthony Parker", "school": "Oklahoma" },
+    { "rank": 10, "name": "Gabe Sollars", "school": "Indiana" },
+    { "rank": 11, "name": "Sonny Sasso", "school": "Virginia Tech" },
+    { "rank": 12, "name": "Dillon Bechtold", "school": "Bucknell" },
+    { "rank": "HM", "name": "Evan Bates", "school": "Missouri" },
+    { "rank": "HM", "name": "Ian Bush", "school": "West Virginia" },
+    { "rank": "HM", "name": "JT Davis", "school": "Lehigh" },
+    { "rank": "HM", "name": "Justin Rademacher", "school": "Oregon State" }
+  ],
+  "285": [
+    { "rank": 1, "name": "AJ Ferrari", "school": "Nebraska" },
+    { "rank": 2, "name": "Isaac Trumble", "school": "NC State" },
+    { "rank": 3, "name": "Yonger Bastida", "school": "Iowa State" },
+    { "rank": 4, "name": "Ben Kueter", "school": "Iowa" },
+    { "rank": 5, "name": "Nick Feldman", "school": "Ohio State" },
+    { "rank": 6, "name": "Dayton Pitzer", "school": "Pittsburgh" },
+    { "rank": 7, "name": "Wyatt Voelker", "school": "Northern Iowa" },
+    { "rank": 8, "name": "Nathan Taylor", "school": "Lehigh" },
+    { "rank": 9, "name": "Taye Ghadiali", "school": "Michigan" },
+    { "rank": 10, "name": "Luke Luffman", "school": "Illinois" },
+    { "rank": 11, "name": "Jim Mullen", "school": "Virginia Tech" },
+    { "rank": 12, "name": "Cole Mirasola", "school": "Penn State" },
+    { "rank": "HM", "name": "Braxton Amos", "school": "Wisconsin" },
+    { "rank": "HM", "name": "Hunter Catka", "school": "Rutgers" },
+    { "rank": "HM", "name": "David Szuba", "school": "Arizona State" },
+    { "rank": "HM", "name": "Nolan Neves", "school": "North Carolina" }
+  ]
+}
