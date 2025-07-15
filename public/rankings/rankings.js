@@ -94,7 +94,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
   // Path to your grouped JSON file
-  const JSON_PATH = "/rankings.json";
+  const JSON_PATH = "./rankings.json";
 
   try {
     // Fetch the JSON and verify the response
