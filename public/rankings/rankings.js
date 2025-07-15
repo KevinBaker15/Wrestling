@@ -61,34 +61,69 @@
 //   }
 // });
 
+// document.addEventListener("DOMContentLoaded", async () => {
+//   try {
+//     const response = await fetch("/rankings/rankings.json");
+//     const data = await response.json();
+
+//     const groupedByWeight = {};
+
+//     data.forEach((entry) => {
+//       const weight = entry.weight_class.toString();
+//       if (!groupedByWeight[weight]) {
+//         groupedByWeight[weight] = [];
+//       }
+//       groupedByWeight[weight].push(entry);
+//     });
+
+//     for (const weightClass in groupedByWeight) {
+//       const rankingsList = document.getElementById(`rankings-${weightClass}`);
+//       if (!rankingsList) continue;
+
+//       groupedByWeight[weightClass].forEach((entry) => {
+//         const li = document.createElement("li");
+//         li.textContent = `${entry.rank}. ${entry.name} - ${entry.school}`;
+//         rankingsList.appendChild(li);
+//       });
+//     }
+//   } catch (err) {
+//     console.error("❌ Failed to load rankings:", err);
+//   }
+// });
+
 document.addEventListener("DOMContentLoaded", async () => {
+
+  // Path to your grouped JSON file
+  const JSON_PATH = "/rankings_grouped.json";
+
   try {
-    const response = await fetch("/rankings/rankings.json");
+    // Fetch the JSON and verify the response
+    const response = await fetch(JSON_PATH);
+    if (!response.ok) {
+      throw new Error(`Server responded with status ${response.status}`);
+    }
+
+    // Parse the JSON into an object like { "125": [ … ], "133": [ … ], … }
     const data = await response.json();
 
-    const groupedByWeight = {};
+    // Iterate over each weightClass → entries array
+    Object.entries(data).forEach(([weightClass, entries]) => {
+      // Find the <ul> whose id matches "rankings-<weightClass>"
+      const listEl = document.getElementById(`rankings-${weightClass}`);
+      if (!listEl) return;  // Skip if no matching element
 
-    data.forEach((entry) => {
-      const weight = entry.weight_class.toString();
-      if (!groupedByWeight[weight]) {
-        groupedByWeight[weight] = [];
-      }
-      groupedByWeight[weight].push(entry);
+      // Create and append an <li> for each wrestler
+      entries.forEach(({ rank, name, school }) => {
+        const li = document.createElement("li");
+        li.textContent = `${rank}. ${name} – ${school}`;
+        listEl.appendChild(li);
+      });
     });
 
-    for (const weightClass in groupedByWeight) {
-      const rankingsList = document.getElementById(`rankings-${weightClass}`);
-      if (!rankingsList) continue;
-
-      groupedByWeight[weightClass].forEach((entry) => {
-        const li = document.createElement("li");
-        li.textContent = `${entry.rank}. ${entry.name} - ${entry.school}`;
-        rankingsList.appendChild(li);
-      });
-    }
   } catch (err) {
     console.error("❌ Failed to load rankings:", err);
   }
+
 });
 
 
