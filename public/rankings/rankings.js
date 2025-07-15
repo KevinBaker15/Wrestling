@@ -63,30 +63,29 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
   if (Array.isArray(data[weightClass])) {
-    data[weightClass].forEach(async item => {
-    try {
-      const response = await fetch("/rankings/rankings.json");
-      const data = await response.json();
+      data[weightClass].forEach(async function(item) {
+        try {
+          const response = await fetch("/rankings/rankings.json");
+          const data = await response.json();
 
-      for (const weightClass in data) {
-        const rankingsList = document.getElementById(`rankings-${weightClass}`);
-        if (!rankingsList) continue;
+          for (const weightClass in data) {
+            const rankingsList = document.getElementById(`rankings-${weightClass}`);
+            if (!rankingsList) continue;
 
-        data[weightClass].forEach((entry) => {
-          const li = document.createElement("li");
-          li.textContent = `${entry.rank}. ${entry.name} - ${entry.school}`;
-          rankingsList.appendChild(li);
-        });
-      }
-    } catch (err) {
-      console.error("❌ Failed to load rankings:", err);
-    }
-  });
+            data[weightClass].forEach((entry) => {
+              const li = document.createElement("li");
+              li.textContent = `${entry.rank}. ${entry.name} - ${entry.school}`;
+              rankingsList.appendChild(li);
+            });
+          }
+        } catch (err) {
+          console.error("❌ Failed to load rankings:", err);
+        }  
+      });
   } else {
-    console.error(`Expected array, got:`, data[weightClass]);
+      console.error(`Expected an array for weightClass ${weightClass}, but got:`, data[weightClass]);
   }
-    });
-  
+});
 
   
 
