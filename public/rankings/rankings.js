@@ -64,13 +64,23 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     const response = await fetch("/rankings/rankings.json");
-    const rankingsData = await response.json();
+    const data = await response.json();
 
-    for (const weightClass in rankingsData) {
+    const groupedByWeight = {};
+
+    data.forEach((entry) => {
+      const weight = entry.weight_class.toString();
+      if (!groupedByWeight[weight]) {
+        groupedByWeight[weight] = [];
+      }
+      groupedByWeight[weight].push(entry);
+    });
+
+    for (const weightClass in groupedByWeight) {
       const rankingsList = document.getElementById(`rankings-${weightClass}`);
       if (!rankingsList) continue;
 
-      rankingsData[weightClass].forEach((entry) => {
+      groupedByWeight[weightClass].forEach((entry) => {
         const li = document.createElement("li");
         li.textContent = `${entry.rank}. ${entry.name} - ${entry.school}`;
         rankingsList.appendChild(li);
@@ -80,6 +90,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error("❌ Failed to load rankings:", err);
   }
 });
+
 
 
   
