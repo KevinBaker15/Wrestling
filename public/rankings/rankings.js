@@ -63,7 +63,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch("/data/rankings.json");
+    const response = await fetch("/rankings/rankings.json");
     const data = await response.json();
 
     for (const weightClass in data) {
@@ -80,4 +80,5 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error("❌ Failed to load rankings:", err);
   }
 });
+
 
