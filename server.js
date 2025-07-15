@@ -1,40 +1,42 @@
 const express = require('express');
-const { Pool } = require('pg');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs').promises;
 
 const app = express();
 const PORT = 3000;
 
-// Enable CORS for development (optional if you're hosting everything on same domain)
 app.use(cors());
-
-// Serve static files from the "public" folder (HTML, CSS, JS)
 app.use(express.static(path.join(__dirname, 'public')));
 
-// PostgreSQL connection setup
-const pool = new Pool({
-  user: 'wrestling_user',
-  host: 'localhost',
-  database: 'wrestling_rankings',
-  password: 'securepassword',
-  port: 5432,
-});
-
-// API route to fetch rankings
 app.get('/api/rankings', async (req, res) => {
   try {
-    const result = await pool.query(
-      'SELECT * FROM rankings ORDER BY weight_class::int, rank_order'
-    );
-    res.json(result.rows);
+    const text = await fs.readFile('college_wrestling_rankings_flat.csv', 'utf8');
+
+    const lines = text.split('\n').filter(line => line.trim() !== '');
+    const rankings = {};
+
+    for (const line of lines.slice(1)) { // Skip header
+      const [weightClass, rank, name, school] = line.split(',');
+
+      if (!rankings[weightClass]) {
+        rankings[weightClass] = [];
+      }
+
+      rankings[weightClass].push({
+        rank: rank?.trim(),
+        name: name?.trim(),
+        school: school?.trim()
+      });
+    }
+
+    res.json(rankings);
   } catch (err) {
-    console.error(err);
+    console.error('❌ Error reading rankings file:', err);
     res.status(500).send('Server error');
   }
 });
 
-// Start the server
 app.listen(PORT, () => {
   console.log(`✅ Server is running at http://localhost:${PORT}`);
 });
