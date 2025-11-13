@@ -101,6 +101,15 @@ p {
     margin-top: 20px;
 }
 
+.newsDiv {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+}
+
 /* Add a color to the active/current link */
 /* .topnav  {
   background-color: black;
