@@ -10,6 +10,7 @@ header{
 
 .content {
     margin-top : 80px; /* Adjusted to account for fixed top navigation */
+    margin-bottom: 80px;
 }
 
 .rankingContainer {
@@ -106,7 +107,7 @@ p {
     color: black;
     border-radius: 5px;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 20px 20px;
     width: auto;
 }
 
