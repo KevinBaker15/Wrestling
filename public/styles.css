@@ -49,6 +49,14 @@ ul {
   gap: 4px; /* optional: space between rankings */
 }
   
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* optional: space between rankings */
+}
 
 footer{
     text-align: center;
